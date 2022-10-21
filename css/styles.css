@@ -5,15 +5,9 @@ body{
     background-color: #ff4c68;
     color: #fff;
 }
-h1{
+h1,h2,.cta-heading{
     font-family: "Montserrat-Black";
     font-size: 3.5rem;
-    line-height: 1.5;
-    
-}
-h2{
-    font-family: 'Montserrat-bold';
-    font-size: 3rem;
     line-height: 1.5;
 }
 h3{
@@ -53,11 +47,12 @@ p{
 }
 /* title image */
 .title-image{
-    width: 35%;
+    width: 30%;
     transform: rotate(25deg);
 }
 #features{
     padding: 7% 15%;
+    background-color: #fff;
 }
 .feature-box{
     text-align: center;
@@ -104,4 +99,27 @@ p{
 }
 .pricing-column{
     padding: 3% 2%;
+}
+/* cta */
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+@media (max-width:992px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
 }
